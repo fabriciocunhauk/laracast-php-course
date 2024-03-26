@@ -51,20 +51,13 @@
 
     <ul>
         <?php foreach ($filteredBooks as $book) : ?>
-        <li>
-            <a href="<?= $book['purchaseUrl'] ?>">
-                <?= $book['name'] ?>
-            </a>
-        </li>
+            <li>
+                <a href="<?= $book['purchaseUrl'] ?>">
+                    <?= $book['name'] ?>
+                </a>
+            </li>
         <?php endforeach;  ?>
     </ul>
-
-    <!-- <form action="your_script.php" method="post">
-        <input type="hidden" name="action" value="myFunction">
-        <button type="submit">Click me</button>
-    </form> -->
-
-    <!-- <button type="button" onclick="filterByAuthor()">Click</button> -->
 
 </body>
 
