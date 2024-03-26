@@ -9,15 +9,15 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="/section02/index.php"
-                            class="<?= isPath('/section02/index.php') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?>  hover:bg-gray-700 hover:text-white  rounded-md px-3 py-2 text-sm font-medium"
+                        <a href="/section02/index"
+                            class="<?= isPath('/section02/index') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?>  hover:bg-gray-700 hover:text-white  rounded-md px-3 py-2 text-sm font-medium"
                             aria-current="page">Home</a>
 
-                        <a href="/section02/about.php"
-                            class="<?= isPath('/section02/about.php') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
+                        <a href="/section02/about"
+                            class="<?= isPath('/section02/about') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
 
-                        <a href="/section02/contact.php"
-                            class="<?= isPath('/section02/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
+                        <a href="/section02/contact"
+                            class="<?= isPath('/section02/contact') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
                     </div>
                 </div>
             </div>
@@ -98,12 +98,11 @@
     <div class="md:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="/section02/index.php"
-                class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+            <a href="/section02/index" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
                 aria-current="page">Home</a>
-            <a href="/section02/about.php"
+            <a href="/section02/about"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
-            <a href="/section02/contact.php"
+            <a href="/section02/contact"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
         </div>
         <div class="border-t border-gray-700 pb-3 pt-4">
