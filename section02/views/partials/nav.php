@@ -16,6 +16,9 @@
                         <a href="/section02/about"
                             class="<?= isPath('/section02/about') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
 
+                        <a href="/section02/notes"
+                            class="<?= isPath('/section02/notes') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Notes</a>
+
                         <a href="/section02/contact"
                             class="<?= isPath('/section02/contact') ? 'bg-gray-900 text-white' : 'text-gray-300'; ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
                     </div>

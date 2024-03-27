@@ -6,6 +6,8 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
     '/section02/index' => 'controllers/index.php',
     '/section02/about' => 'controllers/about.php',
+    '/section02/notes' => 'controllers/notes.php',
+    '/section02/note' => 'controllers/note.php',
     '/section02/contact' => 'controllers/contact.php',
 ];
 
