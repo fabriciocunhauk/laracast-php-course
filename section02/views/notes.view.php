@@ -6,9 +6,9 @@
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
         <ul>
             <?php foreach ($notes as $note) : ?>
-                <a href="/section02/note?id=<?= $note['id'] ?>" class="text-blue-500 hover:underline">
-                    <li><?= $note['body'] ?></li>
-                </a>
+            <a href="/section02/note?id=<?= $note['id'] ?>" class="text-blue-500 hover:underline">
+                <li><?= $note['body'] ?></li>
+            </a>
             <?php endforeach; ?>
         </ul>
     </div>
